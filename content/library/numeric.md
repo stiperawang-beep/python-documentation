@@ -1,0 +1,80 @@
+<a id="numeric"></a>
+
+# Numeric and Mathematical Modules
+
+The modules described in this chapter provide numeric and math-related functions
+and data types. The [`numbers`](numbers.md#module-numbers) module defines an abstract hierarchy of
+numeric types. The [`math`](math.md#module-math) and [`cmath`](cmath.md#module-cmath) modules contain various
+mathematical functions for floating-point and complex numbers. The [`decimal`](decimal.md#module-decimal)
+module supports exact representations of decimal numbers, using arbitrary precision
+arithmetic.
+
+The following modules are documented in this chapter:
+
+* [`numbers` — Numeric abstract base classes](numbers.md)
+  * [The numeric tower](numbers.md#the-numeric-tower)
+  * [Notes for type implementers](numbers.md#notes-for-type-implementers)
+    * [Adding More Numeric ABCs](numbers.md#adding-more-numeric-abcs)
+    * [Implementing the arithmetic operations](numbers.md#implementing-the-arithmetic-operations)
+* [`math` — Mathematical functions](math.md)
+  * [Floating point arithmetic](math.md#floating-point-arithmetic)
+  * [Floating point manipulation functions](math.md#floating-point-manipulation-functions)
+  * [Power, exponential and logarithmic functions](math.md#power-exponential-and-logarithmic-functions)
+  * [Summation and product functions](math.md#summation-and-product-functions)
+  * [Angular conversion](math.md#angular-conversion)
+  * [Trigonometric functions](math.md#trigonometric-functions)
+  * [Hyperbolic functions](math.md#hyperbolic-functions)
+  * [Special functions](math.md#special-functions)
+  * [Number-theoretic functions](math.md#number-theoretic-functions)
+  * [Constants](math.md#constants)
+* [`math.integer` — integer-specific mathematics functions](math.integer.md)
+* [`cmath` — Mathematical functions for complex numbers](cmath.md)
+  * [Conversions to and from polar coordinates](cmath.md#conversions-to-and-from-polar-coordinates)
+  * [Power and logarithmic functions](cmath.md#power-and-logarithmic-functions)
+  * [Trigonometric functions](cmath.md#trigonometric-functions)
+  * [Hyperbolic functions](cmath.md#hyperbolic-functions)
+  * [Classification functions](cmath.md#classification-functions)
+  * [Constants](cmath.md#constants)
+* [`decimal` — Decimal fixed-point and floating-point arithmetic](decimal.md)
+  * [Quick-start tutorial](decimal.md#quick-start-tutorial)
+  * [Decimal objects](decimal.md#decimal-objects)
+    * [Logical operands](decimal.md#logical-operands)
+  * [Context objects](decimal.md#context-objects)
+  * [Constants](decimal.md#constants)
+  * [Rounding modes](decimal.md#rounding-modes)
+  * [Signals](decimal.md#signals)
+  * [Floating-point notes](decimal.md#floating-point-notes)
+    * [Mitigating round-off error with increased precision](decimal.md#mitigating-round-off-error-with-increased-precision)
+    * [Special values](decimal.md#special-values)
+  * [Working with threads](decimal.md#working-with-threads)
+  * [Recipes](decimal.md#recipes)
+  * [Decimal FAQ](decimal.md#decimal-faq)
+* [`fractions` — Rational numbers](fractions.md)
+* [`random` — Generate pseudo-random numbers](random.md)
+  * [Bookkeeping functions](random.md#bookkeeping-functions)
+  * [Functions for bytes](random.md#functions-for-bytes)
+  * [Functions for integers](random.md#functions-for-integers)
+  * [Functions for sequences](random.md#functions-for-sequences)
+  * [Discrete distributions](random.md#discrete-distributions)
+  * [Real-valued distributions](random.md#real-valued-distributions)
+  * [Alternative Generator](random.md#alternative-generator)
+  * [Notes on Reproducibility](random.md#notes-on-reproducibility)
+  * [Examples](random.md#examples)
+  * [Recipes](random.md#recipes)
+  * [Command-line usage](random.md#command-line-usage)
+  * [Command-line example](random.md#command-line-example)
+* [`statistics` — Mathematical statistics functions](statistics.md)
+  * [Averages and measures of central location](statistics.md#averages-and-measures-of-central-location)
+  * [Measures of spread](statistics.md#measures-of-spread)
+  * [Statistics for relations between two inputs](statistics.md#statistics-for-relations-between-two-inputs)
+  * [Function details](statistics.md#function-details)
+  * [Exceptions](statistics.md#exceptions)
+  * [`NormalDist` objects](statistics.md#normaldist-objects)
+  * [Examples and Recipes](statistics.md#examples-and-recipes)
+    * [Classic probability problems](statistics.md#classic-probability-problems)
+    * [Monte Carlo inputs for simulations](statistics.md#monte-carlo-inputs-for-simulations)
+    * [Approximating binomial distributions](statistics.md#approximating-binomial-distributions)
+    * [Naive bayesian classifier](statistics.md#naive-bayesian-classifier)
+
+<!-- Apparently this how you hack together a formatted link:
+(https://www.docutils.org/docs/ref/rst/directives.html#replacement-text) -->

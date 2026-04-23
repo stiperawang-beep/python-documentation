@@ -1,0 +1,2805 @@
+[
+  {
+    "type": "directory",
+    "title": "Tutorial",
+    "children": [
+      {
+        "type": "file",
+        "title": "Introduction",
+        "path": "tutorial/index.md"
+      },
+      {
+        "type": "file",
+        "title": "Appendix",
+        "path": "tutorial/appendix.md"
+      },
+      {
+        "type": "file",
+        "title": "Appetite",
+        "path": "tutorial/appetite.md"
+      },
+      {
+        "type": "file",
+        "title": "Classes",
+        "path": "tutorial/classes.md"
+      },
+      {
+        "type": "file",
+        "title": "Controlflow",
+        "path": "tutorial/controlflow.md"
+      },
+      {
+        "type": "file",
+        "title": "Datastructures",
+        "path": "tutorial/datastructures.md"
+      },
+      {
+        "type": "file",
+        "title": "Errors",
+        "path": "tutorial/errors.md"
+      },
+      {
+        "type": "file",
+        "title": "Floatingpoint",
+        "path": "tutorial/floatingpoint.md"
+      },
+      {
+        "type": "file",
+        "title": "Inputoutput",
+        "path": "tutorial/inputoutput.md"
+      },
+      {
+        "type": "file",
+        "title": "Interactive",
+        "path": "tutorial/interactive.md"
+      },
+      {
+        "type": "file",
+        "title": "Interpreter",
+        "path": "tutorial/interpreter.md"
+      },
+      {
+        "type": "file",
+        "title": "Introduction",
+        "path": "tutorial/introduction.md"
+      },
+      {
+        "type": "file",
+        "title": "Modules",
+        "path": "tutorial/modules.md"
+      },
+      {
+        "type": "file",
+        "title": "Stdlib",
+        "path": "tutorial/stdlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Stdlib2",
+        "path": "tutorial/stdlib2.md"
+      },
+      {
+        "type": "file",
+        "title": "Venv",
+        "path": "tutorial/venv.md"
+      },
+      {
+        "type": "file",
+        "title": "Whatnow",
+        "path": "tutorial/whatnow.md"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "title": "Library",
+    "children": [
+      {
+        "type": "file",
+        "title": "Introduction",
+        "path": "library/index.md"
+      },
+      {
+        "type": "file",
+        "title": "__Future__",
+        "path": "library/__future__.md"
+      },
+      {
+        "type": "file",
+        "title": "__Main__",
+        "path": "library/__main__.md"
+      },
+      {
+        "type": "file",
+        "title": "_Thread",
+        "path": "library/_thread.md"
+      },
+      {
+        "type": "file",
+        "title": "Abc",
+        "path": "library/abc.md"
+      },
+      {
+        "type": "file",
+        "title": "Aifc",
+        "path": "library/aifc.md"
+      },
+      {
+        "type": "file",
+        "title": "Allos",
+        "path": "library/allos.md"
+      },
+      {
+        "type": "file",
+        "title": "Annotationlib",
+        "path": "library/annotationlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Archiving",
+        "path": "library/archiving.md"
+      },
+      {
+        "type": "file",
+        "title": "Argparse",
+        "path": "library/argparse.md"
+      },
+      {
+        "type": "file",
+        "title": "Array",
+        "path": "library/array.md"
+      },
+      {
+        "type": "file",
+        "title": "Ast",
+        "path": "library/ast.md"
+      },
+      {
+        "type": "file",
+        "title": "Asynchat",
+        "path": "library/asynchat.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Api Index",
+        "path": "library/asyncio-api-index.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Dev",
+        "path": "library/asyncio-dev.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Eventloop",
+        "path": "library/asyncio-eventloop.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Exceptions",
+        "path": "library/asyncio-exceptions.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Extending",
+        "path": "library/asyncio-extending.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Future",
+        "path": "library/asyncio-future.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Graph",
+        "path": "library/asyncio-graph.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Llapi Index",
+        "path": "library/asyncio-llapi-index.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Platforms",
+        "path": "library/asyncio-platforms.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Policy",
+        "path": "library/asyncio-policy.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Protocol",
+        "path": "library/asyncio-protocol.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Queue",
+        "path": "library/asyncio-queue.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Runner",
+        "path": "library/asyncio-runner.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Stream",
+        "path": "library/asyncio-stream.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Subprocess",
+        "path": "library/asyncio-subprocess.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Sync",
+        "path": "library/asyncio-sync.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio Task",
+        "path": "library/asyncio-task.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncio",
+        "path": "library/asyncio.md"
+      },
+      {
+        "type": "file",
+        "title": "Asyncore",
+        "path": "library/asyncore.md"
+      },
+      {
+        "type": "file",
+        "title": "Atexit",
+        "path": "library/atexit.md"
+      },
+      {
+        "type": "file",
+        "title": "Audioop",
+        "path": "library/audioop.md"
+      },
+      {
+        "type": "file",
+        "title": "Audit_Events",
+        "path": "library/audit_events.md"
+      },
+      {
+        "type": "file",
+        "title": "Base64",
+        "path": "library/base64.md"
+      },
+      {
+        "type": "file",
+        "title": "Bdb",
+        "path": "library/bdb.md"
+      },
+      {
+        "type": "file",
+        "title": "Binary",
+        "path": "library/binary.md"
+      },
+      {
+        "type": "file",
+        "title": "Binascii",
+        "path": "library/binascii.md"
+      },
+      {
+        "type": "file",
+        "title": "Bisect",
+        "path": "library/bisect.md"
+      },
+      {
+        "type": "file",
+        "title": "Builtins",
+        "path": "library/builtins.md"
+      },
+      {
+        "type": "file",
+        "title": "Bz2",
+        "path": "library/bz2.md"
+      },
+      {
+        "type": "file",
+        "title": "Calendar",
+        "path": "library/calendar.md"
+      },
+      {
+        "type": "file",
+        "title": "Cgi",
+        "path": "library/cgi.md"
+      },
+      {
+        "type": "file",
+        "title": "Cgitb",
+        "path": "library/cgitb.md"
+      },
+      {
+        "type": "file",
+        "title": "Chunk",
+        "path": "library/chunk.md"
+      },
+      {
+        "type": "file",
+        "title": "Cmath",
+        "path": "library/cmath.md"
+      },
+      {
+        "type": "file",
+        "title": "Cmd",
+        "path": "library/cmd.md"
+      },
+      {
+        "type": "file",
+        "title": "Cmdline",
+        "path": "library/cmdline.md"
+      },
+      {
+        "type": "file",
+        "title": "Cmdlinelibs",
+        "path": "library/cmdlinelibs.md"
+      },
+      {
+        "type": "file",
+        "title": "Code",
+        "path": "library/code.md"
+      },
+      {
+        "type": "file",
+        "title": "Codecs",
+        "path": "library/codecs.md"
+      },
+      {
+        "type": "file",
+        "title": "Codeop",
+        "path": "library/codeop.md"
+      },
+      {
+        "type": "file",
+        "title": "Collections.Abc",
+        "path": "library/collections.abc.md"
+      },
+      {
+        "type": "file",
+        "title": "Collections",
+        "path": "library/collections.md"
+      },
+      {
+        "type": "file",
+        "title": "Colorsys",
+        "path": "library/colorsys.md"
+      },
+      {
+        "type": "file",
+        "title": "Compileall",
+        "path": "library/compileall.md"
+      },
+      {
+        "type": "file",
+        "title": "Compression",
+        "path": "library/compression.md"
+      },
+      {
+        "type": "file",
+        "title": "Compression.Zstd",
+        "path": "library/compression.zstd.md"
+      },
+      {
+        "type": "file",
+        "title": "Concurrency",
+        "path": "library/concurrency.md"
+      },
+      {
+        "type": "file",
+        "title": "Concurrent.Futures",
+        "path": "library/concurrent.futures.md"
+      },
+      {
+        "type": "file",
+        "title": "Concurrent.Interpreters",
+        "path": "library/concurrent.interpreters.md"
+      },
+      {
+        "type": "file",
+        "title": "Concurrent",
+        "path": "library/concurrent.md"
+      },
+      {
+        "type": "file",
+        "title": "Configparser",
+        "path": "library/configparser.md"
+      },
+      {
+        "type": "file",
+        "title": "Constants",
+        "path": "library/constants.md"
+      },
+      {
+        "type": "file",
+        "title": "Contextlib",
+        "path": "library/contextlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Contextvars",
+        "path": "library/contextvars.md"
+      },
+      {
+        "type": "file",
+        "title": "Copy",
+        "path": "library/copy.md"
+      },
+      {
+        "type": "file",
+        "title": "Copyreg",
+        "path": "library/copyreg.md"
+      },
+      {
+        "type": "file",
+        "title": "Crypt",
+        "path": "library/crypt.md"
+      },
+      {
+        "type": "file",
+        "title": "Crypto",
+        "path": "library/crypto.md"
+      },
+      {
+        "type": "file",
+        "title": "Csv",
+        "path": "library/csv.md"
+      },
+      {
+        "type": "file",
+        "title": "Ctypes",
+        "path": "library/ctypes.md"
+      },
+      {
+        "type": "file",
+        "title": "Curses.Ascii",
+        "path": "library/curses.ascii.md"
+      },
+      {
+        "type": "file",
+        "title": "Curses",
+        "path": "library/curses.md"
+      },
+      {
+        "type": "file",
+        "title": "Curses.Panel",
+        "path": "library/curses.panel.md"
+      },
+      {
+        "type": "file",
+        "title": "Custominterp",
+        "path": "library/custominterp.md"
+      },
+      {
+        "type": "file",
+        "title": "Dataclasses",
+        "path": "library/dataclasses.md"
+      },
+      {
+        "type": "file",
+        "title": "Datatypes",
+        "path": "library/datatypes.md"
+      },
+      {
+        "type": "file",
+        "title": "Datetime",
+        "path": "library/datetime.md"
+      },
+      {
+        "type": "file",
+        "title": "Dbm",
+        "path": "library/dbm.md"
+      },
+      {
+        "type": "file",
+        "title": "Debug",
+        "path": "library/debug.md"
+      },
+      {
+        "type": "file",
+        "title": "Decimal",
+        "path": "library/decimal.md"
+      },
+      {
+        "type": "file",
+        "title": "Development",
+        "path": "library/development.md"
+      },
+      {
+        "type": "file",
+        "title": "Devmode",
+        "path": "library/devmode.md"
+      },
+      {
+        "type": "file",
+        "title": "Dialog",
+        "path": "library/dialog.md"
+      },
+      {
+        "type": "file",
+        "title": "Difflib",
+        "path": "library/difflib.md"
+      },
+      {
+        "type": "file",
+        "title": "Dis",
+        "path": "library/dis.md"
+      },
+      {
+        "type": "file",
+        "title": "Distribution",
+        "path": "library/distribution.md"
+      },
+      {
+        "type": "file",
+        "title": "Distutils",
+        "path": "library/distutils.md"
+      },
+      {
+        "type": "file",
+        "title": "Doctest",
+        "path": "library/doctest.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Charset",
+        "path": "library/email.charset.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Compat32 Message",
+        "path": "library/email.compat32-message.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Contentmanager",
+        "path": "library/email.contentmanager.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Encoders",
+        "path": "library/email.encoders.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Errors",
+        "path": "library/email.errors.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Examples",
+        "path": "library/email.examples.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Generator",
+        "path": "library/email.generator.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Header",
+        "path": "library/email.header.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Headerregistry",
+        "path": "library/email.headerregistry.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Iterators",
+        "path": "library/email.iterators.md"
+      },
+      {
+        "type": "file",
+        "title": "Email",
+        "path": "library/email.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Message",
+        "path": "library/email.message.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Mime",
+        "path": "library/email.mime.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Parser",
+        "path": "library/email.parser.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Policy",
+        "path": "library/email.policy.md"
+      },
+      {
+        "type": "file",
+        "title": "Email.Utils",
+        "path": "library/email.utils.md"
+      },
+      {
+        "type": "file",
+        "title": "Ensurepip",
+        "path": "library/ensurepip.md"
+      },
+      {
+        "type": "file",
+        "title": "Enum",
+        "path": "library/enum.md"
+      },
+      {
+        "type": "file",
+        "title": "Errno",
+        "path": "library/errno.md"
+      },
+      {
+        "type": "file",
+        "title": "Exceptions",
+        "path": "library/exceptions.md"
+      },
+      {
+        "type": "file",
+        "title": "Faulthandler",
+        "path": "library/faulthandler.md"
+      },
+      {
+        "type": "file",
+        "title": "Fcntl",
+        "path": "library/fcntl.md"
+      },
+      {
+        "type": "file",
+        "title": "Filecmp",
+        "path": "library/filecmp.md"
+      },
+      {
+        "type": "file",
+        "title": "Fileformats",
+        "path": "library/fileformats.md"
+      },
+      {
+        "type": "file",
+        "title": "Fileinput",
+        "path": "library/fileinput.md"
+      },
+      {
+        "type": "file",
+        "title": "Filesys",
+        "path": "library/filesys.md"
+      },
+      {
+        "type": "file",
+        "title": "Fnmatch",
+        "path": "library/fnmatch.md"
+      },
+      {
+        "type": "file",
+        "title": "Fractions",
+        "path": "library/fractions.md"
+      },
+      {
+        "type": "file",
+        "title": "Frameworks",
+        "path": "library/frameworks.md"
+      },
+      {
+        "type": "file",
+        "title": "Ftplib",
+        "path": "library/ftplib.md"
+      },
+      {
+        "type": "file",
+        "title": "Functional",
+        "path": "library/functional.md"
+      },
+      {
+        "type": "file",
+        "title": "Functions",
+        "path": "library/functions.md"
+      },
+      {
+        "type": "file",
+        "title": "Functools",
+        "path": "library/functools.md"
+      },
+      {
+        "type": "file",
+        "title": "Gc",
+        "path": "library/gc.md"
+      },
+      {
+        "type": "file",
+        "title": "Getopt",
+        "path": "library/getopt.md"
+      },
+      {
+        "type": "file",
+        "title": "Getpass",
+        "path": "library/getpass.md"
+      },
+      {
+        "type": "file",
+        "title": "Gettext",
+        "path": "library/gettext.md"
+      },
+      {
+        "type": "file",
+        "title": "Glob",
+        "path": "library/glob.md"
+      },
+      {
+        "type": "file",
+        "title": "Graphlib",
+        "path": "library/graphlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Grp",
+        "path": "library/grp.md"
+      },
+      {
+        "type": "file",
+        "title": "Gzip",
+        "path": "library/gzip.md"
+      },
+      {
+        "type": "file",
+        "title": "Hashlib",
+        "path": "library/hashlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Heapq",
+        "path": "library/heapq.md"
+      },
+      {
+        "type": "file",
+        "title": "Hmac",
+        "path": "library/hmac.md"
+      },
+      {
+        "type": "file",
+        "title": "Html.Entities",
+        "path": "library/html.entities.md"
+      },
+      {
+        "type": "file",
+        "title": "Html",
+        "path": "library/html.md"
+      },
+      {
+        "type": "file",
+        "title": "Html.Parser",
+        "path": "library/html.parser.md"
+      },
+      {
+        "type": "file",
+        "title": "Http.Client",
+        "path": "library/http.client.md"
+      },
+      {
+        "type": "file",
+        "title": "Http.Cookiejar",
+        "path": "library/http.cookiejar.md"
+      },
+      {
+        "type": "file",
+        "title": "Http.Cookies",
+        "path": "library/http.cookies.md"
+      },
+      {
+        "type": "file",
+        "title": "Http",
+        "path": "library/http.md"
+      },
+      {
+        "type": "file",
+        "title": "Http.Server",
+        "path": "library/http.server.md"
+      },
+      {
+        "type": "file",
+        "title": "I18N",
+        "path": "library/i18n.md"
+      },
+      {
+        "type": "file",
+        "title": "Idle",
+        "path": "library/idle.md"
+      },
+      {
+        "type": "file",
+        "title": "Imaplib",
+        "path": "library/imaplib.md"
+      },
+      {
+        "type": "file",
+        "title": "Imghdr",
+        "path": "library/imghdr.md"
+      },
+      {
+        "type": "file",
+        "title": "Imp",
+        "path": "library/imp.md"
+      },
+      {
+        "type": "file",
+        "title": "Importlib",
+        "path": "library/importlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Importlib.Metadata",
+        "path": "library/importlib.metadata.md"
+      },
+      {
+        "type": "file",
+        "title": "Importlib.Resources.Abc",
+        "path": "library/importlib.resources.abc.md"
+      },
+      {
+        "type": "file",
+        "title": "Importlib.Resources",
+        "path": "library/importlib.resources.md"
+      },
+      {
+        "type": "file",
+        "title": "Inspect",
+        "path": "library/inspect.md"
+      },
+      {
+        "type": "file",
+        "title": "Internet",
+        "path": "library/internet.md"
+      },
+      {
+        "type": "file",
+        "title": "Intro",
+        "path": "library/intro.md"
+      },
+      {
+        "type": "file",
+        "title": "Io",
+        "path": "library/io.md"
+      },
+      {
+        "type": "file",
+        "title": "Ipaddress",
+        "path": "library/ipaddress.md"
+      },
+      {
+        "type": "file",
+        "title": "Ipc",
+        "path": "library/ipc.md"
+      },
+      {
+        "type": "file",
+        "title": "Itertools",
+        "path": "library/itertools.md"
+      },
+      {
+        "type": "file",
+        "title": "Json",
+        "path": "library/json.md"
+      },
+      {
+        "type": "file",
+        "title": "Keyword",
+        "path": "library/keyword.md"
+      },
+      {
+        "type": "file",
+        "title": "Language",
+        "path": "library/language.md"
+      },
+      {
+        "type": "file",
+        "title": "Linecache",
+        "path": "library/linecache.md"
+      },
+      {
+        "type": "file",
+        "title": "Locale",
+        "path": "library/locale.md"
+      },
+      {
+        "type": "file",
+        "title": "Logging.Config",
+        "path": "library/logging.config.md"
+      },
+      {
+        "type": "file",
+        "title": "Logging.Handlers",
+        "path": "library/logging.handlers.md"
+      },
+      {
+        "type": "file",
+        "title": "Logging",
+        "path": "library/logging.md"
+      },
+      {
+        "type": "file",
+        "title": "Lzma",
+        "path": "library/lzma.md"
+      },
+      {
+        "type": "file",
+        "title": "Mailbox",
+        "path": "library/mailbox.md"
+      },
+      {
+        "type": "file",
+        "title": "Mailcap",
+        "path": "library/mailcap.md"
+      },
+      {
+        "type": "file",
+        "title": "Markup",
+        "path": "library/markup.md"
+      },
+      {
+        "type": "file",
+        "title": "Marshal",
+        "path": "library/marshal.md"
+      },
+      {
+        "type": "file",
+        "title": "Math.Integer",
+        "path": "library/math.integer.md"
+      },
+      {
+        "type": "file",
+        "title": "Math",
+        "path": "library/math.md"
+      },
+      {
+        "type": "file",
+        "title": "Mimetypes",
+        "path": "library/mimetypes.md"
+      },
+      {
+        "type": "file",
+        "title": "Mm",
+        "path": "library/mm.md"
+      },
+      {
+        "type": "file",
+        "title": "Mmap",
+        "path": "library/mmap.md"
+      },
+      {
+        "type": "file",
+        "title": "Modulefinder",
+        "path": "library/modulefinder.md"
+      },
+      {
+        "type": "file",
+        "title": "Modules",
+        "path": "library/modules.md"
+      },
+      {
+        "type": "file",
+        "title": "Msilib",
+        "path": "library/msilib.md"
+      },
+      {
+        "type": "file",
+        "title": "Msvcrt",
+        "path": "library/msvcrt.md"
+      },
+      {
+        "type": "file",
+        "title": "Multiprocessing",
+        "path": "library/multiprocessing.md"
+      },
+      {
+        "type": "file",
+        "title": "Multiprocessing.Shared_Memory",
+        "path": "library/multiprocessing.shared_memory.md"
+      },
+      {
+        "type": "file",
+        "title": "Netdata",
+        "path": "library/netdata.md"
+      },
+      {
+        "type": "file",
+        "title": "Netrc",
+        "path": "library/netrc.md"
+      },
+      {
+        "type": "file",
+        "title": "Nis",
+        "path": "library/nis.md"
+      },
+      {
+        "type": "file",
+        "title": "Nntplib",
+        "path": "library/nntplib.md"
+      },
+      {
+        "type": "file",
+        "title": "Numbers",
+        "path": "library/numbers.md"
+      },
+      {
+        "type": "file",
+        "title": "Numeric",
+        "path": "library/numeric.md"
+      },
+      {
+        "type": "file",
+        "title": "Operator",
+        "path": "library/operator.md"
+      },
+      {
+        "type": "file",
+        "title": "Optparse",
+        "path": "library/optparse.md"
+      },
+      {
+        "type": "file",
+        "title": "Os",
+        "path": "library/os.md"
+      },
+      {
+        "type": "file",
+        "title": "Os.Path",
+        "path": "library/os.path.md"
+      },
+      {
+        "type": "file",
+        "title": "Ossaudiodev",
+        "path": "library/ossaudiodev.md"
+      },
+      {
+        "type": "file",
+        "title": "Pathlib",
+        "path": "library/pathlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Pdb",
+        "path": "library/pdb.md"
+      },
+      {
+        "type": "file",
+        "title": "Persistence",
+        "path": "library/persistence.md"
+      },
+      {
+        "type": "file",
+        "title": "Pickle",
+        "path": "library/pickle.md"
+      },
+      {
+        "type": "file",
+        "title": "Pickletools",
+        "path": "library/pickletools.md"
+      },
+      {
+        "type": "file",
+        "title": "Pipes",
+        "path": "library/pipes.md"
+      },
+      {
+        "type": "file",
+        "title": "Pkgutil",
+        "path": "library/pkgutil.md"
+      },
+      {
+        "type": "file",
+        "title": "Platform",
+        "path": "library/platform.md"
+      },
+      {
+        "type": "file",
+        "title": "Plistlib",
+        "path": "library/plistlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Poplib",
+        "path": "library/poplib.md"
+      },
+      {
+        "type": "file",
+        "title": "Posix",
+        "path": "library/posix.md"
+      },
+      {
+        "type": "file",
+        "title": "Pprint",
+        "path": "library/pprint.md"
+      },
+      {
+        "type": "file",
+        "title": "Profile",
+        "path": "library/profile.md"
+      },
+      {
+        "type": "file",
+        "title": "Profiling",
+        "path": "library/profiling.md"
+      },
+      {
+        "type": "file",
+        "title": "Profiling.Sampling",
+        "path": "library/profiling.sampling.md"
+      },
+      {
+        "type": "file",
+        "title": "Profiling.Tracing",
+        "path": "library/profiling.tracing.md"
+      },
+      {
+        "type": "file",
+        "title": "Pstats",
+        "path": "library/pstats.md"
+      },
+      {
+        "type": "file",
+        "title": "Pty",
+        "path": "library/pty.md"
+      },
+      {
+        "type": "file",
+        "title": "Pwd",
+        "path": "library/pwd.md"
+      },
+      {
+        "type": "file",
+        "title": "Py_Compile",
+        "path": "library/py_compile.md"
+      },
+      {
+        "type": "file",
+        "title": "Pyclbr",
+        "path": "library/pyclbr.md"
+      },
+      {
+        "type": "file",
+        "title": "Pydoc",
+        "path": "library/pydoc.md"
+      },
+      {
+        "type": "file",
+        "title": "Pyexpat",
+        "path": "library/pyexpat.md"
+      },
+      {
+        "type": "file",
+        "title": "Python",
+        "path": "library/python.md"
+      },
+      {
+        "type": "file",
+        "title": "Queue",
+        "path": "library/queue.md"
+      },
+      {
+        "type": "file",
+        "title": "Quopri",
+        "path": "library/quopri.md"
+      },
+      {
+        "type": "file",
+        "title": "Random",
+        "path": "library/random.md"
+      },
+      {
+        "type": "file",
+        "title": "Re",
+        "path": "library/re.md"
+      },
+      {
+        "type": "file",
+        "title": "Readline",
+        "path": "library/readline.md"
+      },
+      {
+        "type": "file",
+        "title": "Removed",
+        "path": "library/removed.md"
+      },
+      {
+        "type": "file",
+        "title": "Reprlib",
+        "path": "library/reprlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Resource",
+        "path": "library/resource.md"
+      },
+      {
+        "type": "file",
+        "title": "Rlcompleter",
+        "path": "library/rlcompleter.md"
+      },
+      {
+        "type": "file",
+        "title": "Runpy",
+        "path": "library/runpy.md"
+      },
+      {
+        "type": "file",
+        "title": "Sched",
+        "path": "library/sched.md"
+      },
+      {
+        "type": "file",
+        "title": "Secrets",
+        "path": "library/secrets.md"
+      },
+      {
+        "type": "file",
+        "title": "Security_Warnings",
+        "path": "library/security_warnings.md"
+      },
+      {
+        "type": "file",
+        "title": "Select",
+        "path": "library/select.md"
+      },
+      {
+        "type": "file",
+        "title": "Selectors",
+        "path": "library/selectors.md"
+      },
+      {
+        "type": "file",
+        "title": "Shelve",
+        "path": "library/shelve.md"
+      },
+      {
+        "type": "file",
+        "title": "Shlex",
+        "path": "library/shlex.md"
+      },
+      {
+        "type": "file",
+        "title": "Shutil",
+        "path": "library/shutil.md"
+      },
+      {
+        "type": "file",
+        "title": "Signal",
+        "path": "library/signal.md"
+      },
+      {
+        "type": "file",
+        "title": "Site",
+        "path": "library/site.md"
+      },
+      {
+        "type": "file",
+        "title": "Smtpd",
+        "path": "library/smtpd.md"
+      },
+      {
+        "type": "file",
+        "title": "Smtplib",
+        "path": "library/smtplib.md"
+      },
+      {
+        "type": "file",
+        "title": "Sndhdr",
+        "path": "library/sndhdr.md"
+      },
+      {
+        "type": "file",
+        "title": "Socket",
+        "path": "library/socket.md"
+      },
+      {
+        "type": "file",
+        "title": "Socketserver",
+        "path": "library/socketserver.md"
+      },
+      {
+        "type": "file",
+        "title": "Spwd",
+        "path": "library/spwd.md"
+      },
+      {
+        "type": "file",
+        "title": "Sqlite3",
+        "path": "library/sqlite3.md"
+      },
+      {
+        "type": "file",
+        "title": "Ssl",
+        "path": "library/ssl.md"
+      },
+      {
+        "type": "file",
+        "title": "Stat",
+        "path": "library/stat.md"
+      },
+      {
+        "type": "file",
+        "title": "Statistics",
+        "path": "library/statistics.md"
+      },
+      {
+        "type": "file",
+        "title": "Stdtypes",
+        "path": "library/stdtypes.md"
+      },
+      {
+        "type": "file",
+        "title": "String",
+        "path": "library/string.md"
+      },
+      {
+        "type": "file",
+        "title": "String.Templatelib",
+        "path": "library/string.templatelib.md"
+      },
+      {
+        "type": "file",
+        "title": "Stringprep",
+        "path": "library/stringprep.md"
+      },
+      {
+        "type": "file",
+        "title": "Struct",
+        "path": "library/struct.md"
+      },
+      {
+        "type": "file",
+        "title": "Subprocess",
+        "path": "library/subprocess.md"
+      },
+      {
+        "type": "file",
+        "title": "Sunau",
+        "path": "library/sunau.md"
+      },
+      {
+        "type": "file",
+        "title": "Superseded",
+        "path": "library/superseded.md"
+      },
+      {
+        "type": "file",
+        "title": "Symtable",
+        "path": "library/symtable.md"
+      },
+      {
+        "type": "file",
+        "title": "Sys",
+        "path": "library/sys.md"
+      },
+      {
+        "type": "file",
+        "title": "Sys.Monitoring",
+        "path": "library/sys.monitoring.md"
+      },
+      {
+        "type": "file",
+        "title": "Sys_Path_Init",
+        "path": "library/sys_path_init.md"
+      },
+      {
+        "type": "file",
+        "title": "Sysconfig",
+        "path": "library/sysconfig.md"
+      },
+      {
+        "type": "file",
+        "title": "Syslog",
+        "path": "library/syslog.md"
+      },
+      {
+        "type": "file",
+        "title": "Tabnanny",
+        "path": "library/tabnanny.md"
+      },
+      {
+        "type": "file",
+        "title": "Tarfile",
+        "path": "library/tarfile.md"
+      },
+      {
+        "type": "file",
+        "title": "Telnetlib",
+        "path": "library/telnetlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Tempfile",
+        "path": "library/tempfile.md"
+      },
+      {
+        "type": "file",
+        "title": "Termios",
+        "path": "library/termios.md"
+      },
+      {
+        "type": "file",
+        "title": "Test",
+        "path": "library/test.md"
+      },
+      {
+        "type": "file",
+        "title": "Text",
+        "path": "library/text.md"
+      },
+      {
+        "type": "file",
+        "title": "Textwrap",
+        "path": "library/textwrap.md"
+      },
+      {
+        "type": "file",
+        "title": "Threading",
+        "path": "library/threading.md"
+      },
+      {
+        "type": "file",
+        "title": "Threadsafety",
+        "path": "library/threadsafety.md"
+      },
+      {
+        "type": "file",
+        "title": "Time",
+        "path": "library/time.md"
+      },
+      {
+        "type": "file",
+        "title": "Timeit",
+        "path": "library/timeit.md"
+      },
+      {
+        "type": "file",
+        "title": "Tk",
+        "path": "library/tk.md"
+      },
+      {
+        "type": "file",
+        "title": "Tkinter.Colorchooser",
+        "path": "library/tkinter.colorchooser.md"
+      },
+      {
+        "type": "file",
+        "title": "Tkinter.Dnd",
+        "path": "library/tkinter.dnd.md"
+      },
+      {
+        "type": "file",
+        "title": "Tkinter.Font",
+        "path": "library/tkinter.font.md"
+      },
+      {
+        "type": "file",
+        "title": "Tkinter",
+        "path": "library/tkinter.md"
+      },
+      {
+        "type": "file",
+        "title": "Tkinter.Messagebox",
+        "path": "library/tkinter.messagebox.md"
+      },
+      {
+        "type": "file",
+        "title": "Tkinter.Scrolledtext",
+        "path": "library/tkinter.scrolledtext.md"
+      },
+      {
+        "type": "file",
+        "title": "Tkinter.Ttk",
+        "path": "library/tkinter.ttk.md"
+      },
+      {
+        "type": "file",
+        "title": "Token",
+        "path": "library/token.md"
+      },
+      {
+        "type": "file",
+        "title": "Tokenize",
+        "path": "library/tokenize.md"
+      },
+      {
+        "type": "file",
+        "title": "Tomllib",
+        "path": "library/tomllib.md"
+      },
+      {
+        "type": "file",
+        "title": "Trace",
+        "path": "library/trace.md"
+      },
+      {
+        "type": "file",
+        "title": "Traceback",
+        "path": "library/traceback.md"
+      },
+      {
+        "type": "file",
+        "title": "Tracemalloc",
+        "path": "library/tracemalloc.md"
+      },
+      {
+        "type": "file",
+        "title": "Tty",
+        "path": "library/tty.md"
+      },
+      {
+        "type": "file",
+        "title": "Turtle",
+        "path": "library/turtle.md"
+      },
+      {
+        "type": "file",
+        "title": "Types",
+        "path": "library/types.md"
+      },
+      {
+        "type": "file",
+        "title": "Typing",
+        "path": "library/typing.md"
+      },
+      {
+        "type": "file",
+        "title": "Unicodedata",
+        "path": "library/unicodedata.md"
+      },
+      {
+        "type": "file",
+        "title": "Unittest",
+        "path": "library/unittest.md"
+      },
+      {
+        "type": "file",
+        "title": "Unittest.Mock Examples",
+        "path": "library/unittest.mock-examples.md"
+      },
+      {
+        "type": "file",
+        "title": "Unittest.Mock",
+        "path": "library/unittest.mock.md"
+      },
+      {
+        "type": "file",
+        "title": "Unix",
+        "path": "library/unix.md"
+      },
+      {
+        "type": "file",
+        "title": "Urllib.Error",
+        "path": "library/urllib.error.md"
+      },
+      {
+        "type": "file",
+        "title": "Urllib",
+        "path": "library/urllib.md"
+      },
+      {
+        "type": "file",
+        "title": "Urllib.Parse",
+        "path": "library/urllib.parse.md"
+      },
+      {
+        "type": "file",
+        "title": "Urllib.Request",
+        "path": "library/urllib.request.md"
+      },
+      {
+        "type": "file",
+        "title": "Urllib.Robotparser",
+        "path": "library/urllib.robotparser.md"
+      },
+      {
+        "type": "file",
+        "title": "Uu",
+        "path": "library/uu.md"
+      },
+      {
+        "type": "file",
+        "title": "Uuid",
+        "path": "library/uuid.md"
+      },
+      {
+        "type": "file",
+        "title": "Venv",
+        "path": "library/venv.md"
+      },
+      {
+        "type": "file",
+        "title": "Warnings",
+        "path": "library/warnings.md"
+      },
+      {
+        "type": "file",
+        "title": "Wave",
+        "path": "library/wave.md"
+      },
+      {
+        "type": "file",
+        "title": "Weakref",
+        "path": "library/weakref.md"
+      },
+      {
+        "type": "file",
+        "title": "Webbrowser",
+        "path": "library/webbrowser.md"
+      },
+      {
+        "type": "file",
+        "title": "Windows",
+        "path": "library/windows.md"
+      },
+      {
+        "type": "file",
+        "title": "Winreg",
+        "path": "library/winreg.md"
+      },
+      {
+        "type": "file",
+        "title": "Winsound",
+        "path": "library/winsound.md"
+      },
+      {
+        "type": "file",
+        "title": "Wsgiref",
+        "path": "library/wsgiref.md"
+      },
+      {
+        "type": "file",
+        "title": "Xdrlib",
+        "path": "library/xdrlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml.Dom",
+        "path": "library/xml.dom.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml.Dom.Minidom",
+        "path": "library/xml.dom.minidom.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml.Dom.Pulldom",
+        "path": "library/xml.dom.pulldom.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml.Etree.Elementtree",
+        "path": "library/xml.etree.elementtree.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml",
+        "path": "library/xml.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml.Sax.Handler",
+        "path": "library/xml.sax.handler.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml.Sax",
+        "path": "library/xml.sax.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml.Sax.Reader",
+        "path": "library/xml.sax.reader.md"
+      },
+      {
+        "type": "file",
+        "title": "Xml.Sax.Utils",
+        "path": "library/xml.sax.utils.md"
+      },
+      {
+        "type": "file",
+        "title": "Xmlrpc.Client",
+        "path": "library/xmlrpc.client.md"
+      },
+      {
+        "type": "file",
+        "title": "Xmlrpc",
+        "path": "library/xmlrpc.md"
+      },
+      {
+        "type": "file",
+        "title": "Xmlrpc.Server",
+        "path": "library/xmlrpc.server.md"
+      },
+      {
+        "type": "file",
+        "title": "Zipapp",
+        "path": "library/zipapp.md"
+      },
+      {
+        "type": "file",
+        "title": "Zipfile",
+        "path": "library/zipfile.md"
+      },
+      {
+        "type": "file",
+        "title": "Zipimport",
+        "path": "library/zipimport.md"
+      },
+      {
+        "type": "file",
+        "title": "Zlib",
+        "path": "library/zlib.md"
+      },
+      {
+        "type": "file",
+        "title": "Zoneinfo",
+        "path": "library/zoneinfo.md"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "title": "Reference",
+    "children": [
+      {
+        "type": "file",
+        "title": "Introduction",
+        "path": "reference/index.md"
+      },
+      {
+        "type": "file",
+        "title": "Compound_Stmts",
+        "path": "reference/compound_stmts.md"
+      },
+      {
+        "type": "file",
+        "title": "Datamodel",
+        "path": "reference/datamodel.md"
+      },
+      {
+        "type": "file",
+        "title": "Executionmodel",
+        "path": "reference/executionmodel.md"
+      },
+      {
+        "type": "file",
+        "title": "Expressions",
+        "path": "reference/expressions.md"
+      },
+      {
+        "type": "file",
+        "title": "Grammar",
+        "path": "reference/grammar.md"
+      },
+      {
+        "type": "file",
+        "title": "Import",
+        "path": "reference/import.md"
+      },
+      {
+        "type": "file",
+        "title": "Introduction",
+        "path": "reference/introduction.md"
+      },
+      {
+        "type": "file",
+        "title": "Lexical_Analysis",
+        "path": "reference/lexical_analysis.md"
+      },
+      {
+        "type": "file",
+        "title": "Simple_Stmts",
+        "path": "reference/simple_stmts.md"
+      },
+      {
+        "type": "file",
+        "title": "Toplevel_Components",
+        "path": "reference/toplevel_components.md"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "title": "Howto",
+    "children": [
+      {
+        "type": "file",
+        "title": "Introduction",
+        "path": "howto/index.md"
+      },
+      {
+        "type": "file",
+        "title": "A Conceptual Overview Of Asyncio",
+        "path": "howto/a-conceptual-overview-of-asyncio.md"
+      },
+      {
+        "type": "file",
+        "title": "Annotations",
+        "path": "howto/annotations.md"
+      },
+      {
+        "type": "file",
+        "title": "Argparse Optparse",
+        "path": "howto/argparse-optparse.md"
+      },
+      {
+        "type": "file",
+        "title": "Argparse",
+        "path": "howto/argparse.md"
+      },
+      {
+        "type": "file",
+        "title": "Clinic",
+        "path": "howto/clinic.md"
+      },
+      {
+        "type": "file",
+        "title": "Cporting",
+        "path": "howto/cporting.md"
+      },
+      {
+        "type": "file",
+        "title": "Curses",
+        "path": "howto/curses.md"
+      },
+      {
+        "type": "file",
+        "title": "Descriptor",
+        "path": "howto/descriptor.md"
+      },
+      {
+        "type": "file",
+        "title": "Enum",
+        "path": "howto/enum.md"
+      },
+      {
+        "type": "file",
+        "title": "Free Threading Extensions",
+        "path": "howto/free-threading-extensions.md"
+      },
+      {
+        "type": "file",
+        "title": "Free Threading Python",
+        "path": "howto/free-threading-python.md"
+      },
+      {
+        "type": "file",
+        "title": "Functional",
+        "path": "howto/functional.md"
+      },
+      {
+        "type": "file",
+        "title": "Gdb_Helpers",
+        "path": "howto/gdb_helpers.md"
+      },
+      {
+        "type": "file",
+        "title": "Instrumentation",
+        "path": "howto/instrumentation.md"
+      },
+      {
+        "type": "file",
+        "title": "Ipaddress",
+        "path": "howto/ipaddress.md"
+      },
+      {
+        "type": "file",
+        "title": "Isolating Extensions",
+        "path": "howto/isolating-extensions.md"
+      },
+      {
+        "type": "file",
+        "title": "Logging Cookbook",
+        "path": "howto/logging-cookbook.md"
+      },
+      {
+        "type": "file",
+        "title": "Logging",
+        "path": "howto/logging.md"
+      },
+      {
+        "type": "file",
+        "title": "Mro",
+        "path": "howto/mro.md"
+      },
+      {
+        "type": "file",
+        "title": "Perf_Profiling",
+        "path": "howto/perf_profiling.md"
+      },
+      {
+        "type": "file",
+        "title": "Pyporting",
+        "path": "howto/pyporting.md"
+      },
+      {
+        "type": "file",
+        "title": "Regex",
+        "path": "howto/regex.md"
+      },
+      {
+        "type": "file",
+        "title": "Remote_Debugging",
+        "path": "howto/remote_debugging.md"
+      },
+      {
+        "type": "file",
+        "title": "Sockets",
+        "path": "howto/sockets.md"
+      },
+      {
+        "type": "file",
+        "title": "Sorting",
+        "path": "howto/sorting.md"
+      },
+      {
+        "type": "file",
+        "title": "Timerfd",
+        "path": "howto/timerfd.md"
+      },
+      {
+        "type": "file",
+        "title": "Unicode",
+        "path": "howto/unicode.md"
+      },
+      {
+        "type": "file",
+        "title": "Urllib2",
+        "path": "howto/urllib2.md"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "title": "Faq",
+    "children": [
+      {
+        "type": "file",
+        "title": "Introduction",
+        "path": "faq/index.md"
+      },
+      {
+        "type": "file",
+        "title": "Design",
+        "path": "faq/design.md"
+      },
+      {
+        "type": "file",
+        "title": "Extending",
+        "path": "faq/extending.md"
+      },
+      {
+        "type": "file",
+        "title": "General",
+        "path": "faq/general.md"
+      },
+      {
+        "type": "file",
+        "title": "Gui",
+        "path": "faq/gui.md"
+      },
+      {
+        "type": "file",
+        "title": "Installed",
+        "path": "faq/installed.md"
+      },
+      {
+        "type": "file",
+        "title": "Library",
+        "path": "faq/library.md"
+      },
+      {
+        "type": "file",
+        "title": "Programming",
+        "path": "faq/programming.md"
+      },
+      {
+        "type": "file",
+        "title": "Windows",
+        "path": "faq/windows.md"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "title": "Whatsnew",
+    "children": [
+      {
+        "type": "file",
+        "title": "Introduction",
+        "path": "whatsnew/index.md"
+      },
+      {
+        "type": "file",
+        "title": "2.0",
+        "path": "whatsnew/2.0.md"
+      },
+      {
+        "type": "file",
+        "title": "2.1",
+        "path": "whatsnew/2.1.md"
+      },
+      {
+        "type": "file",
+        "title": "2.2",
+        "path": "whatsnew/2.2.md"
+      },
+      {
+        "type": "file",
+        "title": "2.3",
+        "path": "whatsnew/2.3.md"
+      },
+      {
+        "type": "file",
+        "title": "2.4",
+        "path": "whatsnew/2.4.md"
+      },
+      {
+        "type": "file",
+        "title": "2.5",
+        "path": "whatsnew/2.5.md"
+      },
+      {
+        "type": "file",
+        "title": "2.6",
+        "path": "whatsnew/2.6.md"
+      },
+      {
+        "type": "file",
+        "title": "2.7",
+        "path": "whatsnew/2.7.md"
+      },
+      {
+        "type": "file",
+        "title": "3.0",
+        "path": "whatsnew/3.0.md"
+      },
+      {
+        "type": "file",
+        "title": "3.1",
+        "path": "whatsnew/3.1.md"
+      },
+      {
+        "type": "file",
+        "title": "3.10",
+        "path": "whatsnew/3.10.md"
+      },
+      {
+        "type": "file",
+        "title": "3.11",
+        "path": "whatsnew/3.11.md"
+      },
+      {
+        "type": "file",
+        "title": "3.12",
+        "path": "whatsnew/3.12.md"
+      },
+      {
+        "type": "file",
+        "title": "3.13",
+        "path": "whatsnew/3.13.md"
+      },
+      {
+        "type": "file",
+        "title": "3.14",
+        "path": "whatsnew/3.14.md"
+      },
+      {
+        "type": "file",
+        "title": "3.15",
+        "path": "whatsnew/3.15.md"
+      },
+      {
+        "type": "file",
+        "title": "3.2",
+        "path": "whatsnew/3.2.md"
+      },
+      {
+        "type": "file",
+        "title": "3.3",
+        "path": "whatsnew/3.3.md"
+      },
+      {
+        "type": "file",
+        "title": "3.4",
+        "path": "whatsnew/3.4.md"
+      },
+      {
+        "type": "file",
+        "title": "3.5",
+        "path": "whatsnew/3.5.md"
+      },
+      {
+        "type": "file",
+        "title": "3.6",
+        "path": "whatsnew/3.6.md"
+      },
+      {
+        "type": "file",
+        "title": "3.7",
+        "path": "whatsnew/3.7.md"
+      },
+      {
+        "type": "file",
+        "title": "3.8",
+        "path": "whatsnew/3.8.md"
+      },
+      {
+        "type": "file",
+        "title": "3.9",
+        "path": "whatsnew/3.9.md"
+      },
+      {
+        "type": "file",
+        "title": "Changelog",
+        "path": "whatsnew/changelog.md"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "title": "Advanced & Internal",
+    "children": [
+      {
+        "type": "file",
+        "title": "About",
+        "path": "about.md"
+      },
+      {
+        "type": "file",
+        "title": "Bugs",
+        "path": "bugs.md"
+      },
+      {
+        "type": "directory",
+        "title": "C Api",
+        "children": [
+          {
+            "type": "file",
+            "title": "Introduction",
+            "path": "c-api/index.md"
+          },
+          {
+            "type": "file",
+            "title": "Abstract",
+            "path": "c-api/abstract.md"
+          },
+          {
+            "type": "file",
+            "title": "Allocation",
+            "path": "c-api/allocation.md"
+          },
+          {
+            "type": "file",
+            "title": "Apiabiversion",
+            "path": "c-api/apiabiversion.md"
+          },
+          {
+            "type": "file",
+            "title": "Arg",
+            "path": "c-api/arg.md"
+          },
+          {
+            "type": "file",
+            "title": "Bool",
+            "path": "c-api/bool.md"
+          },
+          {
+            "type": "file",
+            "title": "Buffer",
+            "path": "c-api/buffer.md"
+          },
+          {
+            "type": "file",
+            "title": "Bytearray",
+            "path": "c-api/bytearray.md"
+          },
+          {
+            "type": "file",
+            "title": "Bytes",
+            "path": "c-api/bytes.md"
+          },
+          {
+            "type": "file",
+            "title": "Call",
+            "path": "c-api/call.md"
+          },
+          {
+            "type": "file",
+            "title": "Capsule",
+            "path": "c-api/capsule.md"
+          },
+          {
+            "type": "file",
+            "title": "Cell",
+            "path": "c-api/cell.md"
+          },
+          {
+            "type": "file",
+            "title": "Code",
+            "path": "c-api/code.md"
+          },
+          {
+            "type": "file",
+            "title": "Codec",
+            "path": "c-api/codec.md"
+          },
+          {
+            "type": "file",
+            "title": "Complex",
+            "path": "c-api/complex.md"
+          },
+          {
+            "type": "file",
+            "title": "Concrete",
+            "path": "c-api/concrete.md"
+          },
+          {
+            "type": "file",
+            "title": "Contextvars",
+            "path": "c-api/contextvars.md"
+          },
+          {
+            "type": "file",
+            "title": "Conversion",
+            "path": "c-api/conversion.md"
+          },
+          {
+            "type": "file",
+            "title": "Coro",
+            "path": "c-api/coro.md"
+          },
+          {
+            "type": "file",
+            "title": "Curses",
+            "path": "c-api/curses.md"
+          },
+          {
+            "type": "file",
+            "title": "Datetime",
+            "path": "c-api/datetime.md"
+          },
+          {
+            "type": "file",
+            "title": "Descriptor",
+            "path": "c-api/descriptor.md"
+          },
+          {
+            "type": "file",
+            "title": "Dict",
+            "path": "c-api/dict.md"
+          },
+          {
+            "type": "file",
+            "title": "Exceptions",
+            "path": "c-api/exceptions.md"
+          },
+          {
+            "type": "file",
+            "title": "Extension Modules",
+            "path": "c-api/extension-modules.md"
+          },
+          {
+            "type": "file",
+            "title": "File",
+            "path": "c-api/file.md"
+          },
+          {
+            "type": "file",
+            "title": "Float",
+            "path": "c-api/float.md"
+          },
+          {
+            "type": "file",
+            "title": "Frame",
+            "path": "c-api/frame.md"
+          },
+          {
+            "type": "file",
+            "title": "Function",
+            "path": "c-api/function.md"
+          },
+          {
+            "type": "file",
+            "title": "Gcsupport",
+            "path": "c-api/gcsupport.md"
+          },
+          {
+            "type": "file",
+            "title": "Gen",
+            "path": "c-api/gen.md"
+          },
+          {
+            "type": "file",
+            "title": "Hash",
+            "path": "c-api/hash.md"
+          },
+          {
+            "type": "file",
+            "title": "Import",
+            "path": "c-api/import.md"
+          },
+          {
+            "type": "file",
+            "title": "Init",
+            "path": "c-api/init.md"
+          },
+          {
+            "type": "file",
+            "title": "Init_Config",
+            "path": "c-api/init_config.md"
+          },
+          {
+            "type": "file",
+            "title": "Interp Lifecycle",
+            "path": "c-api/interp-lifecycle.md"
+          },
+          {
+            "type": "file",
+            "title": "Intro",
+            "path": "c-api/intro.md"
+          },
+          {
+            "type": "file",
+            "title": "Iter",
+            "path": "c-api/iter.md"
+          },
+          {
+            "type": "file",
+            "title": "Iterator",
+            "path": "c-api/iterator.md"
+          },
+          {
+            "type": "file",
+            "title": "Lifecycle",
+            "path": "c-api/lifecycle.md"
+          },
+          {
+            "type": "file",
+            "title": "List",
+            "path": "c-api/list.md"
+          },
+          {
+            "type": "file",
+            "title": "Long",
+            "path": "c-api/long.md"
+          },
+          {
+            "type": "file",
+            "title": "Mapping",
+            "path": "c-api/mapping.md"
+          },
+          {
+            "type": "file",
+            "title": "Marshal",
+            "path": "c-api/marshal.md"
+          },
+          {
+            "type": "file",
+            "title": "Memory",
+            "path": "c-api/memory.md"
+          },
+          {
+            "type": "file",
+            "title": "Memoryview",
+            "path": "c-api/memoryview.md"
+          },
+          {
+            "type": "file",
+            "title": "Method",
+            "path": "c-api/method.md"
+          },
+          {
+            "type": "file",
+            "title": "Module",
+            "path": "c-api/module.md"
+          },
+          {
+            "type": "file",
+            "title": "Monitoring",
+            "path": "c-api/monitoring.md"
+          },
+          {
+            "type": "file",
+            "title": "None",
+            "path": "c-api/none.md"
+          },
+          {
+            "type": "file",
+            "title": "Number",
+            "path": "c-api/number.md"
+          },
+          {
+            "type": "file",
+            "title": "Object",
+            "path": "c-api/object.md"
+          },
+          {
+            "type": "file",
+            "title": "Objimpl",
+            "path": "c-api/objimpl.md"
+          },
+          {
+            "type": "file",
+            "title": "Perfmaps",
+            "path": "c-api/perfmaps.md"
+          },
+          {
+            "type": "file",
+            "title": "Picklebuffer",
+            "path": "c-api/picklebuffer.md"
+          },
+          {
+            "type": "file",
+            "title": "Profiling",
+            "path": "c-api/profiling.md"
+          },
+          {
+            "type": "file",
+            "title": "Refcounting",
+            "path": "c-api/refcounting.md"
+          },
+          {
+            "type": "file",
+            "title": "Reflection",
+            "path": "c-api/reflection.md"
+          },
+          {
+            "type": "file",
+            "title": "Sequence",
+            "path": "c-api/sequence.md"
+          },
+          {
+            "type": "file",
+            "title": "Set",
+            "path": "c-api/set.md"
+          },
+          {
+            "type": "file",
+            "title": "Slice",
+            "path": "c-api/slice.md"
+          },
+          {
+            "type": "file",
+            "title": "Stable",
+            "path": "c-api/stable.md"
+          },
+          {
+            "type": "file",
+            "title": "Structures",
+            "path": "c-api/structures.md"
+          },
+          {
+            "type": "file",
+            "title": "Subinterpreters",
+            "path": "c-api/subinterpreters.md"
+          },
+          {
+            "type": "file",
+            "title": "Synchronization",
+            "path": "c-api/synchronization.md"
+          },
+          {
+            "type": "file",
+            "title": "Sys",
+            "path": "c-api/sys.md"
+          },
+          {
+            "type": "file",
+            "title": "Threads",
+            "path": "c-api/threads.md"
+          },
+          {
+            "type": "file",
+            "title": "Time",
+            "path": "c-api/time.md"
+          },
+          {
+            "type": "file",
+            "title": "Tls",
+            "path": "c-api/tls.md"
+          },
+          {
+            "type": "file",
+            "title": "Tuple",
+            "path": "c-api/tuple.md"
+          },
+          {
+            "type": "file",
+            "title": "Type",
+            "path": "c-api/type.md"
+          },
+          {
+            "type": "file",
+            "title": "Typehints",
+            "path": "c-api/typehints.md"
+          },
+          {
+            "type": "file",
+            "title": "Typeobj",
+            "path": "c-api/typeobj.md"
+          },
+          {
+            "type": "file",
+            "title": "Unicode",
+            "path": "c-api/unicode.md"
+          },
+          {
+            "type": "file",
+            "title": "Utilities",
+            "path": "c-api/utilities.md"
+          },
+          {
+            "type": "file",
+            "title": "Veryhigh",
+            "path": "c-api/veryhigh.md"
+          },
+          {
+            "type": "file",
+            "title": "Weakref",
+            "path": "c-api/weakref.md"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "title": "Contents",
+        "path": "contents.md"
+      },
+      {
+        "type": "file",
+        "title": "Copyright",
+        "path": "copyright.md"
+      },
+      {
+        "type": "directory",
+        "title": "Deprecations",
+        "children": [
+          {
+            "type": "file",
+            "title": "Introduction",
+            "path": "deprecations/index.md"
+          },
+          {
+            "type": "file",
+            "title": "C Api Pending Removal In 3.14",
+            "path": "deprecations/c-api-pending-removal-in-3.14.md"
+          },
+          {
+            "type": "file",
+            "title": "C Api Pending Removal In 3.15",
+            "path": "deprecations/c-api-pending-removal-in-3.15.md"
+          },
+          {
+            "type": "file",
+            "title": "C Api Pending Removal In 3.16",
+            "path": "deprecations/c-api-pending-removal-in-3.16.md"
+          },
+          {
+            "type": "file",
+            "title": "C Api Pending Removal In 3.18",
+            "path": "deprecations/c-api-pending-removal-in-3.18.md"
+          },
+          {
+            "type": "file",
+            "title": "C Api Pending Removal In 3.19",
+            "path": "deprecations/c-api-pending-removal-in-3.19.md"
+          },
+          {
+            "type": "file",
+            "title": "C Api Pending Removal In 3.20",
+            "path": "deprecations/c-api-pending-removal-in-3.20.md"
+          },
+          {
+            "type": "file",
+            "title": "C Api Pending Removal In Future",
+            "path": "deprecations/c-api-pending-removal-in-future.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In 3.13",
+            "path": "deprecations/pending-removal-in-3.13.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In 3.14",
+            "path": "deprecations/pending-removal-in-3.14.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In 3.15",
+            "path": "deprecations/pending-removal-in-3.15.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In 3.16",
+            "path": "deprecations/pending-removal-in-3.16.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In 3.17",
+            "path": "deprecations/pending-removal-in-3.17.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In 3.18",
+            "path": "deprecations/pending-removal-in-3.18.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In 3.19",
+            "path": "deprecations/pending-removal-in-3.19.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In 3.20",
+            "path": "deprecations/pending-removal-in-3.20.md"
+          },
+          {
+            "type": "file",
+            "title": "Pending Removal In Future",
+            "path": "deprecations/pending-removal-in-future.md"
+          },
+          {
+            "type": "file",
+            "title": "Soft Deprecations",
+            "path": "deprecations/soft-deprecations.md"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "title": "Distributing",
+        "children": [
+          {
+            "type": "file",
+            "title": "Introduction",
+            "path": "distributing/index.md"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "title": "Extending",
+        "children": [
+          {
+            "type": "file",
+            "title": "Introduction",
+            "path": "extending/index.md"
+          },
+          {
+            "type": "file",
+            "title": "Building",
+            "path": "extending/building.md"
+          },
+          {
+            "type": "file",
+            "title": "Embedding",
+            "path": "extending/embedding.md"
+          },
+          {
+            "type": "file",
+            "title": "Extending",
+            "path": "extending/extending.md"
+          },
+          {
+            "type": "file",
+            "title": "First Extension Module",
+            "path": "extending/first-extension-module.md"
+          },
+          {
+            "type": "file",
+            "title": "Newtypes",
+            "path": "extending/newtypes.md"
+          },
+          {
+            "type": "file",
+            "title": "Newtypes_Tutorial",
+            "path": "extending/newtypes_tutorial.md"
+          },
+          {
+            "type": "file",
+            "title": "Windows",
+            "path": "extending/windows.md"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "title": "Glossary",
+        "path": "glossary.md"
+      },
+      {
+        "type": "file",
+        "title": "Improve Page Nojs",
+        "path": "improve-page-nojs.md"
+      },
+      {
+        "type": "file",
+        "title": "Improve Page",
+        "path": "improve-page.md"
+      },
+      {
+        "type": "directory",
+        "title": "Installing",
+        "children": [
+          {
+            "type": "file",
+            "title": "Introduction",
+            "path": "installing/index.md"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "title": "License",
+        "path": "license.md"
+      },
+      {
+        "type": "directory",
+        "title": "Using",
+        "children": [
+          {
+            "type": "file",
+            "title": "Introduction",
+            "path": "using/index.md"
+          },
+          {
+            "type": "file",
+            "title": "Android",
+            "path": "using/android.md"
+          },
+          {
+            "type": "file",
+            "title": "Cmdline",
+            "path": "using/cmdline.md"
+          },
+          {
+            "type": "file",
+            "title": "Configure",
+            "path": "using/configure.md"
+          },
+          {
+            "type": "file",
+            "title": "Editors",
+            "path": "using/editors.md"
+          },
+          {
+            "type": "file",
+            "title": "Ios",
+            "path": "using/ios.md"
+          },
+          {
+            "type": "file",
+            "title": "Mac",
+            "path": "using/mac.md"
+          },
+          {
+            "type": "file",
+            "title": "Unix",
+            "path": "using/unix.md"
+          },
+          {
+            "type": "file",
+            "title": "Windows",
+            "path": "using/windows.md"
+          }
+        ]
+      }
+    ]
+  }
+]

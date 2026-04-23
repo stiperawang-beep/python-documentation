@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Masterclass | Premium Tutorial</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Code Highlighting Theme (Atom One Dark) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark-reasonable.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/c.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="Python Logo" class="logo">
+                    <h1>PyDocs<span class="highlight">Pro</span></h1>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search topics..." disabled title="Coming soon">
+                </div>
+            </div>
+            
+            <nav id="nav-tree" class="nav-tree">
+                <!-- Dynamically populated by JS -->
+                <div class="loading-pulse">Loading modules...</div>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <header class="topbar">
+                <div class="breadcrumb" id="breadcrumb">
+                    Welcome / Start
+                </div>
+                <div class="actions">
+                    <button class="theme-toggle" id="theme-toggle" title="Toggle Theme">
+                        <svg xmlns="http://www.w3.org/2000/width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </button>
+                </div>
+            </header>
+            
+            <div id="content" class="markdown-body">
+                <div class="welcome-screen">
+                    <h1 class="gradient-text">Welcome to Python Masterclass</h1>
+                    <p>Select a module from the sidebar to begin your journey into deep Python architecture and semantics.</p>
+                </div>
+            </div>
+            
+            <footer class="footer">
+                <p>Converted dynamically from official CPython docs via PyDocsPro Engine.</p>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Application Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
