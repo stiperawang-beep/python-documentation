@@ -130,6 +130,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 link.textContent = item.title;
                 link.style.setProperty('--bling-color', currentColor);
                 link.setAttribute('data-path', item.path);
+                // Also store the actual path as data-href to match internal link logic
+                link.setAttribute('data-href', item.path);
                 link.setAttribute('data-breadcrumb', currentPath + item.title);
                 
                 link.addEventListener('click', (e) => {
@@ -148,6 +150,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function loadContent(path, breadcrumbText) {
+        // Compute base directory of current path to resolve relative links
+        const pathParts = path.split('/');
+        pathParts.pop(); // Remove filename
+        const baseDir = pathParts.length > 0 ? pathParts.join('/') + '/' : '';
+
         // Show loading state
         contentArea.innerHTML = '<div style="padding: 40px; text-align: center; color: var(--text-secondary);">Loading...</div>';
         contentArea.classList.remove('fade-enter');
@@ -185,10 +192,33 @@ document.addEventListener('DOMContentLoaded', () => {
                     a.addEventListener('click', (e) => {
                         e.preventDefault();
                         const href = a.getAttribute('data-href');
-                        // Basic parsing: remove ../ and map dynamically
-                        const cleanPath = href.replace(/\.\.\//g, '').split('#')[0];
-                        loadContent(cleanPath, cleanPath);
-                        window.location.hash = cleanPath;
+                        
+                        let cleanPath = href.split('#')[0];
+                        if (cleanPath) {
+                             // Handle relative paths. If it starts with '../', resolve it. 
+                             // If it doesn't start with '/' and doesn't contain '..', it's relative to current baseDir
+                             if (cleanPath.startsWith('../')) {
+                                 // Basic parsing for '../'
+                                 let upCount = (cleanPath.match(/\.\.\//g) || []).length;
+                                 let targetPathParts = baseDir.split('/').filter(p => p !== '');
+                                 for(let i=0; i<upCount; i++) { targetPathParts.pop(); }
+                                 let newBase = targetPathParts.length > 0 ? targetPathParts.join('/') + '/' : '';
+                                 cleanPath = newBase + cleanPath.replace(/\.\.\//g, '');
+                             } else if (!cleanPath.startsWith('/')) {
+                                 cleanPath = baseDir + cleanPath;
+                             } else if (cleanPath.startsWith('/')) {
+                                 cleanPath = cleanPath.substring(1);
+                             }
+                             
+                             loadContent(cleanPath, cleanPath);
+                             window.location.hash = cleanPath;
+                        } else {
+                            // Anchor link on same page
+                            const hash = href.split('#')[1];
+                            if(hash) {
+                                window.location.hash = path + '#' + hash;
+                            }
+                        }
                     });
                 });
             })
@@ -201,8 +231,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function restoreState() {
         const hash = window.location.hash.slice(1);
         if (hash) {
+            const pathOnly = hash.split('#')[0];
             // Find the link
-            const target = document.querySelector(`.nav-item[data-path="${hash}"]`);
+            const target = document.querySelector(`.nav-item[data-path="${pathOnly}"]`);
             if (target) {
                 // Open parent folders
                 let parent = target.parentElement;
@@ -214,9 +245,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 
                 target.click();
-                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                
+                // If there's an anchor, try to scroll to it after loading
+                const anchor = hash.split('#')[1];
+                if(anchor) {
+                    setTimeout(() => {
+                        const el = document.getElementById(anchor);
+                        if(el) el.scrollIntoView({behavior: 'smooth'});
+                    }, 500); // Give it some time to render
+                } else {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+
             } else {
-                loadContent(hash, hash);
+                loadContent(pathOnly, pathOnly);
             }
         }
     }
