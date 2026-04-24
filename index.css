@@ -34,26 +34,26 @@
 
 /* Premium Light Theme Palette */
 :root[data-theme="light"] {
-    --bg-base: #fbfcfd;
+    --bg-base: #ffffff;
     --bg-surface: rgba(255, 255, 255, 0.7);
-    --bg-surface-hover: rgba(243, 244, 246, 0.8);
-    --border-color: rgba(229, 231, 235, 0.8);
+    --bg-surface-hover: rgba(240, 253, 250, 0.8);
+    --border-color: rgba(6, 148, 148, 0.15);
     
-    --text-primary: #111827;
+    --text-primary: #1f2937;
     --text-secondary: #4b5563;
-    --text-accent: #2563eb;
+    --text-accent: #069494;
     
-    --py-gradient: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+    --py-gradient: linear-gradient(135deg, #FF69B4 0%, #00F0FF 100%);
     
     /* Code Blocks */
-    --inline-code-bg: rgba(15, 23, 42, 0.06);
-    --inline-code-color: #111827;
+    --inline-code-bg: rgba(6, 148, 148, 0.08);
+    --inline-code-color: #069494;
     --pre-bg: #f9fafb;
     
-    --sidebar-shadow: 4px 0 30px rgba(0, 0, 0, 0.03);
+    --sidebar-shadow: 4px 0 30px rgba(6, 148, 148, 0.05);
     
     /* Topbar */
-    --topbar-bg: rgba(255, 255, 255, 0.7);
+    --topbar-bg: rgba(255, 255, 255, 0.75);
     --topbar-text: #4b5563;
 }
 
@@ -62,9 +62,9 @@
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     width: 100vw; height: 100vh;
-    background: radial-gradient(circle at 10% -10%, rgba(244, 143, 177, 0.2) 0%, transparent 60%),
-                radial-gradient(circle at 90% -10%, rgba(206, 147, 216, 0.2) 0%, transparent 60%),
-                radial-gradient(circle at 50% 50%, rgba(144, 202, 249, 0.05) 0%, transparent 60%);
+    background: radial-gradient(circle at 10% -10%, rgba(255, 105, 180, 0.15) 0%, transparent 60%),
+                radial-gradient(circle at 90% -10%, rgba(0, 240, 255, 0.15) 0%, transparent 60%),
+                radial-gradient(circle at 50% 50%, rgba(6, 148, 148, 0.05) 0%, transparent 60%);
     z-index: -1;
     pointer-events: none;
     border-radius: 0;
@@ -360,7 +360,7 @@ body::before {
 }
 
 :root[data-theme="light"] .breadcrumb {
-    background: linear-gradient(135deg, #ec4899 0%, #a855f7 100%);
+    background: linear-gradient(135deg, #FF69B4 0%, #00F0FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
