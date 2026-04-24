@@ -3,6 +3,59 @@ document.addEventListener('DOMContentLoaded', () => {
     const contentArea = document.getElementById('content');
     const breadcrumb = document.getElementById('breadcrumb');
     const searchInput = document.querySelector('.search-bar input');
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const sidebar = document.getElementById('sidebar');
+    const minimizeBtn = document.getElementById('sidebar-minimize-btn');
+
+    // Theme Toggle Logic
+    themeToggleBtn.addEventListener('click', () => {
+        const html = document.documentElement;
+        if (html.getAttribute('data-theme') === 'light') {
+            html.removeAttribute('data-theme');
+        } else {
+            html.setAttribute('data-theme', 'light');
+        }
+    });
+
+    // Sidebar Minimize Logic
+    if (minimizeBtn) {
+        minimizeBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('minimized');
+        });
+    }
+
+    // Mobile Menu Toggle Logic
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const sidebarBackdrop = document.getElementById('sidebar-backdrop');
+
+    if (mobileMenuToggle && sidebarBackdrop) {
+        function toggleMobileMenu() {
+            sidebar.classList.toggle('mobile-open');
+            sidebarBackdrop.classList.toggle('show');
+        }
+
+        mobileMenuToggle.addEventListener('click', toggleMobileMenu);
+        sidebarBackdrop.addEventListener('click', toggleMobileMenu);
+
+        // Also close sidebar on mobile when a link is clicked
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('.nav-item') && window.innerWidth <= 768) {
+                sidebar.classList.remove('mobile-open');
+                sidebarBackdrop.classList.remove('show');
+            }
+        });
+    }
+
+    // Bling Colors as requested
+    const blingColors = [
+        '#FFF59D', // Soft Yellow
+        '#80CBC4', // Seafoam Green
+        '#90CAF9', // Sky Blue
+        '#CE93D8', // Light Purple
+        '#F48FB1', // Rose Pink
+        '#FFCC80'  // Peach
+    ];
+    let blingIndex = 0;
 
     // Setup Marked.js Options
     marked.use({
@@ -42,9 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function buildSidebar(items, container, currentPath = '') {
         items.forEach(item => {
+            const currentColor = blingColors[blingIndex % blingColors.length];
+            blingIndex++;
+
             if (item.type === 'directory') {
                 const folderDiv = document.createElement('div');
                 folderDiv.className = 'nav-folder';
+                folderDiv.style.setProperty('--bling-color', currentColor);
 
                 const titleDiv = document.createElement('div');
                 titleDiv.className = 'folder-title';
@@ -71,6 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const link = document.createElement('a');
                 link.className = 'nav-item';
                 link.textContent = item.title;
+                link.style.setProperty('--bling-color', currentColor);
                 link.setAttribute('data-path', item.path);
                 link.setAttribute('data-breadcrumb', currentPath + item.title);
                 
